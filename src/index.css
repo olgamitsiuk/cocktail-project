@@ -5,9 +5,61 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #230312;
+  color: #fff;
 }
+nav {
+  padding: 0 1rem;
+}
+.content {
+  min-height: calc(100vh - 70px - 64px);
+}
+.btn {
+  background-color: #c52d2f;
+}
+.btn:hover {
+  background-color: #b71c1c;
+}
+.title-list {
+  text-align: center;
+}
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #230312;
+  color: #fff;
+  border: none;
+  box-shadow: none;
+}
+.card-content {
+  flex-grow: 1;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.title h1 {
+  padding-top: 0;
+}
+.cocktail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+#search-field {
+  background: #230312;
+  color: #fff;
 }
